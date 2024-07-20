@@ -11,15 +11,17 @@
             {% endif %}
             <form method="post">
                 {% csrf_token %}
-                <div class="mb-3"><label class="form-label" for="username"  >Username</label><input class="form-control item" type="username" id="username" data-bs-theme="light" required></div>
-                <div class="mb-3"><label class="form-label" for="password" >Password</label><input class="form-control" type="password" id="password" data-bs-theme="light" required></div>
+                <div class="mb-3"><label class="form-label" for="username"  >Username</label><input class="form-control item" type="text" id="username" name="username" data-bs-theme="light" required></div>
+                <div class="mb-3"><label class="form-label" for="password" >Password</label><input class="form-control" type="password" id="password" name="password" data-bs-theme="light" required></div>
                 <div class="mb-3">
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="checkbox" data-bs-theme="light"><label class="form-check-label" for="checkbox">Remember me</label></div>
+                    
                 </div>
+                <a class="nav-link" href="{% url 'register' %}">Register</a>
                 <center>
                     <button class="btn btn-primary" type="submit">Log In</button>
                 </center>
-                <p>Do not have an account ? Click here to Register.</p>
+               
             </form>
         </div>
     </section>

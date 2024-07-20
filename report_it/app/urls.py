@@ -1,4 +1,8 @@
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from django.contrib.auth.views import LogoutView
+
 from .views import (
     HomeView,
     TrackingView,
@@ -30,4 +34,10 @@ urlpatterns = [
     path('reports/', ReportListView.as_view(), name='report_list'),
     path('reports/<int:pk>/', ReportDetailView.as_view(), name='report_detail'),
     path('reports/new/', ReportCreateView.as_view(), name='report_create'),
+
+    # Logout URL
+    path('logout/', LogoutView.as_view(), name='logout'),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

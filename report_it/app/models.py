@@ -30,7 +30,7 @@ class Authority(models.Model):
     description = models.TextField()
     image = models.ImageField(upload_to='authority_logos/')
     contact = models.CharField(max_length=100)
-    addresses = models.JSONField()  # This will allow you to store multiple addresses in JSON format
+    addresses = models.CharField(max_length=500)  # This will allow you to store multiple addresses in JSON format
 
     def __str__(self):
         return self.name
