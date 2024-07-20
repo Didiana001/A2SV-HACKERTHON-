@@ -1,0 +1,14 @@
+{% extends "app/base.html" %}
+{% block content %}
+<div class="container" style="padding-top: 0px;margin-top: 88px;">
+    <section>
+        <div><img style="width: 100%;" src="{{ authority.image.url }}" alt="{{ authority.name }} logo" ></div>
+        <div>
+            <h3>{{ authority.name }}</h3>
+            <p>{{ authority.description }}</p>
+            <p>Contact: {{ authority.contact }}</p>
+            <p>Addresses: {{ authority.addresses }}</p>
+        </div>
+    </section>
+</div>
+{% endblock %}

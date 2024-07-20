@@ -1,0 +1,29 @@
+{% extends "app/base.html" %}
+{% block content %}
+<main class="page registration-page">
+    <section class="clean-block clean-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-info">Registration</h2>
+            </div>
+            {% if error %}
+                <p class="danger" style="color: red;">{{ error }}</p>
+            {% endif %}
+            <form method="post">
+                {% csrf_token %}
+                <div class="mb-3"><label class="form-label" for="username">Name</label><input class="form-control item" type="text" id="username" name="username" data-bs-theme="light" required></div>
+                <div class="mb-3"><label class="form-label" for="password">Password</label><input class="form-control item" type="password" id="password" name="password" data-bs-theme="light" required></div>
+                <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email" name="email" data-bs-theme="light"></div>
+                <div class="mb-3"><label class="form-label" for="first_name">First Name</label><input class="form-control item" type="text" id="first_name" name="first_name" data-bs-theme="light" required></div>
+                <div class="mb-3"><label class="form-label" for="last_name">Last Name</label><input class="form-control item" type="text" id="last_name" name="last_name" data-bs-theme="light" required></div>
+                
+                <center>
+                    <button class="btn btn-primary" type="submit">Register</button>
+                </center>
+                
+            </form>
+        </div>
+    </section>
+</main>
+{% endblock %}
+   
