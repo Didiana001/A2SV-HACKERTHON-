@@ -26,18 +26,4 @@ Image Recognition: AI-powered image recognition helps categorize and prioritize 
 Predictive Analytics: AI analyzes historical data to predict and prevent future problems.
 Decision Support: Provides authorities with data-driven insights to allocate resources effectively.
 
-## Screenshots
-### Homepage
-![Homepage](images/home.png)
 
-### Login
-![Feature 1](images/login.png)
-
-### Registration
-![Feature 1](images/registration.png)
-
-### Report
-![Feature 1](images/report.png)
-
-### Track
-![Feature 1](images/track.png)
