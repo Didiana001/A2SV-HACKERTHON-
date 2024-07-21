@@ -27,6 +27,7 @@ Predictive Analytics: AI analyzes historical data to predict and prevent future 
 Decision Support: Provides authorities with data-driven insights to allocate resources effectively.
 
 ## Screenshots
+### Desktop View
 ### Homepage
 ![Homepage](images/home.png)
 
@@ -42,3 +43,20 @@ Decision Support: Provides authorities with data-driven insights to allocate res
 ### Track
 ![Feature 4](images/track.png)
 
+### Admin Dashboard
+![Feature 5](images/admindashboard.png)
+
+### Admin Reports
+![Feature 6](images/adminreports.png)
+
+### Authorites Permission
+![Feature 7](images/authoritiespermission.png)
+
+### Track
+![Feature 8](images/track.png)
+
+### Authorities Registration
+![Feature 9](images/authoritiesregistration.png)
+
+### Create User
+![Feature 10](images/createusers.png)
