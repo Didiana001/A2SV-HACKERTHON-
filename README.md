@@ -5,7 +5,6 @@
 - [introduction](#introduction)
 - [Features](#Features)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
 
 ## introduction
 In many communities specifically ours in Zambia , residents encounter various issues such as potholes, 
@@ -28,4 +27,17 @@ Predictive Analytics: AI analyzes historical data to predict and prevent future 
 Decision Support: Provides authorities with data-driven insights to allocate resources effectively.
 
 ## Screenshots
+### Homepage
+![Homepage](images/home.png)
 
+### Login
+![Feature 1](images/login.png)
+
+### Registration
+![Feature 1](images/registration.png)
+
+### Report
+![Feature 1](images/report.png)
+
+### Track
+![Feature 1](images/track.png)
